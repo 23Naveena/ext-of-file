@@ -1,0 +1,4 @@
+f=input()
+ext=f.split(".")[-1]
+d={"py": "Python", "txt":"Text file"}
+print(d[ext])
